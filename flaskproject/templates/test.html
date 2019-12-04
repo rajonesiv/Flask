@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Tutorial</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+    {% block body %}
+    <div class="block1">
+        <h1>Hello {{ name }}</h1>
+        <h2>This is a test of the flask app. Here's a quote:</h2>
+        {{ quote }}
+        <img src="http://www.naturalprogramming.com/images/smilingpython.gif">
+    </div>
+    {% endblock %}
+</body>
+</html>
